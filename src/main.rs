@@ -11,10 +11,7 @@ fn main() {
         .map(|pix| pix[0] as f32 / 255.0) // Normaliza cada pixel para [0, 1]
         .collect(); // Coleta os resultados em um Vec<f32>
 
-    // Exibe os valores normalizados
-    for (i, &pixel) in pixels.iter().enumerate() {
-        println!("Pixel {}: {}", i, pixel);
-    }
+    
 }
 
 
